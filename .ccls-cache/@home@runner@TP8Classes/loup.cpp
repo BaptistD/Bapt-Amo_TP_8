@@ -10,7 +10,7 @@ void loup::setAttaque()const{
 
 void loup::deplace(int maxX, int maxY)const{
   srand(time(NULL));
-    int nombreMystere = (rand() % 10);
+    int nombreMystere = (rand() % 9);
   int X = nombreMystere ;
   int Y = nombreMystere ;
 }

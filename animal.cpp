@@ -26,10 +26,3 @@ bool animal::attaque(animal &a) {
   int nombreMystere = (rand() % 3);
   this->x = nombreMystere;
 }
-
-void animal::setAttaque() { ? ; }
-
-void animal::deplace(int maxX, int maxY) {
-  this->x = maxX;
-  this->y = maxY;
-}

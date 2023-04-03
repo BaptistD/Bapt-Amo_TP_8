@@ -6,7 +6,7 @@ using namespace std;
 
 class attaque{
 private:
-  int type; // 0 :pierre, 1: Feuille, 2:Ciseaux
+  int type; // 0:pierre, 1:Feuille, 2:Ciseaux
 public :   
 attaque();
 attaque(int a);

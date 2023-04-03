@@ -71,7 +71,7 @@ string attaque::getNomAttaque() const {
     return "Pierre";
   } else if (this->type == 1) {
     return "Feuille";
-  } else if (this->type == 1) {
+  } else if (this->type == 2) {
     return "Ciseaux";
   }
 }
